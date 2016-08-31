@@ -1,0 +1,611 @@
+AWSTATS DATA FILE 7.2 (build 1.992)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.bristol-msk.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2665                
+POS_VISITOR 13376               
+POS_DAY 19115               
+POS_DOMAIN 3563                
+POS_LOGIN 3795                
+POS_ROBOT 3982                
+POS_WORMS 4630                
+POS_EMAILSENDER 4761                
+POS_EMAILRECEIVER 4904                
+POS_SESSION 19228               
+POS_SIDER 19418               
+POS_FILETYPES 5039                
+POS_DOWNLOADS 5331                
+POS_OS 5379                
+POS_BROWSER 5647                
+POS_SCREENSIZE 6404                
+POS_UNKNOWNREFERER 6478                
+POS_UNKNOWNREFERERBROWSER 6769                
+POS_ORIGIN 6851                
+POS_SEREFERRALS 6992                
+POS_PAGEREFS 7160                
+POS_SEARCHWORDS 7708                
+POS_KEYWORDS 8027                
+POS_MISC 2328                
+POS_ERRORS 8257                
+POS_CLUSTER 3651                
+POS_SIDER_404 8381                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101000101 49897 13069249 14830029509949
+FirstTime 0
+LastTime 20151231224942
+LastUpdate 20160101010001 1 0 0 0 0
+TotalVisits 96                  
+TotalUnique 89                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 172                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 25 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 50 509726 204 210 1805081
+1 0 0 0 313 328 6181740
+2 7 81 2079558 177 185 1665985
+3 1 32 2292264 179 213 2029166
+4 5 42 863493 6497 6536 58091471
+5 25 246 4625733 15254 15272 135422175
+6 36 385 28162946 6450 6457 57648268
+7 12 80 1553336 494 515 4694089
+8 13 52 910304 224 236 2280801
+9 5 32 559587 192 199 1817254
+10 22 133 6974081 523 538 5286917
+11 36 109 1927554 408 421 5531532
+12 25 215 1470821 138 150 1355102
+13 2 22 155857 96 131 1205802
+14 2 27 406241 1887 1899 17150776
+15 8 44 666154 1371 1429 17433237
+16 6 12 356667 626 638 5717157
+17 12 109 4726447 240 282 2612322
+18 9 65 536437 65 78 722882
+19 7 7 426938 40 50 390805
+20 10 96 1921380 4654 4660 41220449
+21 11 86 6608475 54 73 566171
+22 44 302 16641452 6669 6697 59379222
+23 3 3 71943 443 469 4116873
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 309 2230 84447394
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+zzeraw 4 4 18189 20151231120909
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+yandex 43949 390887406 20151231232750 5
+googlebot 2713 31180919 20151231235920 2
+mj12bot 524 4871092 20151231114849 8
+crawl 95 1211321 20151231102415 2
+slurp 72 863290 20151231233041 3
+bot[\s_+:,\.\;\/\\-] 64 915414 20151231235637 0
+bingbot 59 648781 20151231234246 22
+no_user_agent 23 72490 20151231155313 0
+rambler 18 194639 20151231174744 0
+baiduspider 18 1014481 20151231234559 0
+favicon 1 9365 20151231045635 0
+curl 2 105679 20151231224941 0
+unknown 1 399 20151231160728 1
+bingpreview 4 52780 20151231220844 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff 8 189756 0 0
+html 123 2633015 0 0
+eot 22 448770 0 0
+ttf 2 91330 0 0
+woff2 14 182890 0 0
+png 396 5548121 0 0
+jpg 456 65963648 0 0
+css 394 2589883 0 0
+php 7 12446 0 0
+Unknown 133 1545126 0 0
+js 674 5242085 0 0
+gif 1 324 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win2000 5 5
+winvista 212 31
+win8 112 20
+win7 1038 110
+macosx 142 22
+winxp 412 46
+linuxubuntu 1 1
+linux 22 6
+macosx5 1 1
+macosx9 23 23
+win95 9 9
+win2003 6 6
+winlong 90 7
+linuxandroid 123 20
+Unknown 34 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+chrome32.0.1700.107 29 3
+chrome36.0.1985.125 23 23
+chrome40.0.2214.115 1 1
+firefox25.0 78 6
+chrome37.0.2062.120 1 1
+chrome31.0.1650.57 215 15
+msie5.5 6 6
+chrome31.0.1650.63 127 8
+msie8.0 197 22
+chrome4.0.208.0 1 1
+chrome47.0.2526.83 78 15
+chrome47.0.2526.106 528 69
+chrome6.0.453.1 1 1
+chrome19.0.1084.5409 2 2
+chrome23.0.1271.97 2 2
+msie9.0 130 7
+mozilla 31 8
+firefox43.0 118 15
+chrome45.0.2454.101 1 0
+safari9.0 95 16
+chrome43.0.2357.81 1 1
+chrome38.0.2125.102 31 3
+chrome28.0.1500.95 52 4
+firefox38.0 13 6
+android 14 2
+msie2.0 3 3
+chrome36.0.1985.143 32 3
+opera9.80 123 9
+safari 47 6
+msie6.0 12 12
+chrome46.0.2490.86 4 2
+chrome34.0.1847.132 1 1
+chrome35.0.1916.153 27 2
+firefox6.0.2 1 1
+msie10.0 205 33
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Opera/9.80_(Android;_Opera_Mini/6.0.24556/28.2794;_U;_ru)_Presto/2.8.119_Version/11.10 20151231204417
+Opera/9.80_(Android;_Opera_Mini/7.5.31658/28.2647;_U;_ru)_Presto/2.8.119_Version/11.10 20151231204417
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 53
+From1 0 0
+From2 82 82
+From3 31 31
+From4 145 2064
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandex 76 76
+google 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://brendbutik.ru 3 3
+http://top1-seo-service.com/try.php 3 3
+http://wheelchairliftfind.com 3 3
+http://sachaan.com 3 3
+http://ublaze.ru 3 3
+http://energy-ua.com 3 3
+http://slonechka.ru 3 3
+http://forum.poker4life.ru 3 3
+http://kino-filmi.com 2 2
+http://www.industrycat.com/27/71022204227.html 1 1
+http://memovn.com 1 1
+http://shtaketniki.ru 1 1
+http://vk.com/away.php 1 1
+http://sims-sims.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d1%87%d0%b5%d0%b1%d0%be%d0%ba%d1%81%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d1%80%d0%bc%d0%b0%d1%82%d1%83%d1%80%d0%bd%d1%8b%d0%b9+%d0%b7%d0%b0%d0%b2%d0%be%d0%b4 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+%d1%87%d0%b5%d0%b1%d0%be%d0%ba%d1%81%d0%b0%d1%80%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%b7%d0%b0%d0%b2%d0%be%d0%b4 1
+%d0%b0%d1%80%d0%bc%d0%b0%d1%82%d1%83%d1%80%d0%bd%d1%8b%d0%b9 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 14 6769
+500 13 18453
+401 2 1482
+404 69 70400
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 60
+/katalog-tovarov/group/4/catalog/index/CatalogItem_page/243/CatalogItem_sort/environment.desc/ 1 -
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/8/CatalogItem_sort/pressure/1735/CatalogItem_page/5/CatalogItem_page/3/ 1 -
+/assets/images/rele-toka/rtf8-9_z_gr.gif 3 http://free.enjob.ru/shema-rele-toka.html
+/katalog-tovarov/group/51/CatalogItem_page/1728/index/CatalogItem_sort/pressure/material/code/CatalogItem_sort/CatalogItem_sort/title/ 1 -
+/katalog-tovarov/group/51/CatalogItem_page/1576/index/CatalogItem_sort/code/CatalogItem_sort/pressure/environment/CatalogItem_sort/title/ 1 -
+/component/users/ 1 BRISTOL-MSK.RU/component/users/
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/8/CatalogItem_sort/pressure/1735/CatalogItem_page/5/CatalogItem_page/3 1 -
+/katalog-tovarov/group/22/CatalogItem_page/395/index/CatalogItem_sort/title/CatalogItem_sort/pressure/material/CatalogItem_sort/code/ 1 -
+/assets/images/NKU/nkupics_21.jpg 1 -
+/katalog-tovarov/group/14/CatalogItem_page/112/index/CatalogItem_sort/diametr/CatalogItem_sort/material/CatalogItem_sort/code/CatalogItem_sort/title/ 1 -
+/katalog-tovarov/group/6/CatalogItem_page/9/index/CatalogItem_sort/diametr/CatalogItem_sort/title 1 -
+/katalog-tovarov/group/4/catalog/index/CatalogItem_page/243/CatalogItem_sort/environment.desc 1 -
+/katalog-tovarov/group/24/index/CatalogItem_sort/pressure/CatalogItem_sort/CatalogItem_sort/pressure/CatalogItem_page/16 1 -
+/assets/images/rele%20vremeni/rsv01_5_se.gif 1 http://ancarna.ru/shema-tsiklicheskih-rele/
+/manager/index.php 1 -
+/katalog-tovarov/group/14/CatalogItem_page/112/index/CatalogItem_sort/diametr/CatalogItem_sort/material/CatalogItem_sort/code/CatalogItem_sort/title 1 -
+/assets/images/NKU/nkupics_20.jpg 1 -
+/login 1 -
+/wp-admin 1 -
+/apanel 1 -
+/assets/images/NKU/nkupics_18.jpg 2 -
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/environment/CatalogItem_sort/pressure.desc/material/CatalogItem_page/5/CatalogItem_page/7 1 -
+/katalog-tovarov/group/14/CatalogItem_page/16/index/CatalogItem_sort/environment/CatalogItem_sort/material/CatalogItem_sort/pressure/CatalogItem_sort/diametr/ 1 -
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/2/CatalogItem_sort/diametr.desc/9/CatalogItem_page/8 1 -
+/katalog-tovarov/group/51/CatalogItem_sort/title/index/CatalogItem_page/3/CatalogItem_page/9/1707/CatalogItem_page/1569 1 -
+/katalog-tovarov/group/51/CatalogItem_page/124/CatalogItem_sort/environment/ 1 -
+/non-existing/page/891723habnn 1 -
+/paneli-diffaznoj-zashhityi 1 -
+/katalog-tovarov/group/22/CatalogItem_page/395/index/CatalogItem_sort/title/CatalogItem_sort/pressure/material/CatalogItem_sort/code 1 -
+/assets/images/rele-chastoti/rgr11_se.gif 2 http://vauto.pp.ua/
+/15s10p 1 -
+/katalog-tovarov/group/24/index/CatalogItem_sort/pressure/CatalogItem_sort/CatalogItem_sort/pressure/CatalogItem_page/16/ 1 -
+//cdn.callbackhunter.com/widget/tracker.js 1 http://bristol-msk.ru//cdn.callbackhunter.com/widget/tracker.js
+/katalog-tovarov/group/51/CatalogItem_page/1728/index/CatalogItem_sort/pressure/material/code/CatalogItem_sort/CatalogItem_sort/title 1 -
+/assets/images/rele%20teplovie/1.png 3 http://vauto.pp.ua/
+/katalog-tovarov/group/14/CatalogItem_page/16/index/CatalogItem_sort/environment/CatalogItem_sort/material/CatalogItem_sort/pressure/CatalogItem_sort/diametr 1 -
+/katalog-tovarov/group/51/CatalogItem_page/1576/index/CatalogItem_sort/code/CatalogItem_sort/pressure/environment/CatalogItem_sort/title 1 -
+/katalog-tovarov/group/11/CatalogItem_page/9/index/CatalogItem_sort/diametr/CatalogItem_sort/material/CatalogItem_sort/CatalogItem_sort/diametr 1 -
+/30s976nzh 1 -
+/katalog-tovarov/group/51/CatalogItem_sort/title/index/CatalogItem_page/3/CatalogItem_page/9/1707/CatalogItem_page/1569/ 1 -
+/wp-content 1 -
+/mobile/ 1 -
+/robots.txt 2 -
+/moned 1 -
+/gruppa-meo-250 1 -
+/assets/images/shkafi-paneli-zashiti/bemp_shkaf.jpg 1 -
+/manager 1 -
+/katalog-tovarov/group/11/CatalogItem_page/9/index/CatalogItem_sort/diametr/CatalogItem_sort/material/CatalogItem_sort/CatalogItem_sort/diametr/ 1 -
+/m/ 2 -
+/katalog-tovarov/group/6/CatalogItem_page/9/index/CatalogItem_sort/diametr/CatalogItem_sort/title/ 1 -
+/assets/images/NKU/nkupics_19.jpg 1 -
+/user 1 -
+/bitrix/ 1 -
+/kp-midi 1 -
+/wp-admin/admin-ajax.php 2 -
+/katalog-tovarov/group/51/CatalogItem_page/124/CatalogItem_sort/environment 1 -
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/2/CatalogItem_sort/diametr.desc/9/CatalogItem_page/8/ 1 -
+/mexanizmyi-signalizaczii-polozheniya-msp-1 1 -
+/katalog-tovarov/group/51/index/CatalogItem_sort/code/environment/CatalogItem_sort/pressure.desc/material/CatalogItem_page/5/CatalogItem_page/7/ 1 -
+/kranyi-sharovyie-dlya-podzemnoj-ustanovki 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 172
+37.232.199.163 52 385 18097088 20151231120909
+176.9.93.176 23 23 167325 20151231110344
+62.122.208.186 15 118 16097992 20151231063709
+217.66.159.67 15 78 6212909 20151231104453
+178.137.89.157 9 9 561672 20151231194237
+134.249.49.23 9 9 561672 20151231153504
+46.187.123.144 9 59 5958027 20151231211859
+83.69.7.233 6 47 4101952 20151231172000
+175.144.198.13 5 51 5745714 20151231063951
+82.209.214.3 5 10 348297 20151231104418
+93.80.83.108 1 17 183838 20151231174737
+204.79.180.111 0 1 9890 
+204.79.180.155 0 1 19588 
+204.79.180.124 0 1 764 
+204.79.180.165 0 1 1662 
+109.234.156.66 1 1 9315 20151231055541
+204.79.180.194 0 1 6357 
+46.118.226.141 3 3 187224 20151231191257
+5.228.16.34 2 26 348080 20151231153503
+95.24.37.66 2 26 348090 20151231061038
+109.51.89.95 2 25 676206 20151231020050
+204.79.180.158 1 2 12251 20151231101636
+37.113.99.151 3 30 1055303 20151231020325
+178.140.233.227 2 14 123915 20151231180503
+204.79.180.86 0 2 5115 
+45.32.130.87 1 1 62408 20151231091657
+95.28.75.168 2 22 155861 20151231121509
+204.79.180.133 1 1 8826 20151231004626
+204.79.180.172 0 1 547 
+204.79.180.47 0 1 800 
+204.79.180.200 0 2 3453 
+95.181.179.24 1 1 52487 20151231052130
+176.77.91.137 3 15 130854 20151231203007
+204.79.180.225 0 1 4165 
+204.79.180.191 0 1 2689 
+204.79.180.140 0 1 1777 
+204.79.180.20 0 1 9890 
+204.79.180.67 0 1 19588 
+37.204.127.157 1 25 339278 20151231052232
+37.204.136.148 2 26 348091 20151231052237
+66.249.88.40 1 10 134442 20151231050939
+204.79.180.75 0 1 2689 
+176.212.215.141 3 31 1066468 20151231053844
+204.79.180.96 0 2 6906 
+204.79.180.137 0 2 6854 
+185.10.107.69 1 1 9371 20151230233535
+204.79.180.87 0 1 800 
+204.79.180.249 0 1 1777 
+204.79.180.127 0 1 19588 
+37.204.156.0 2 26 348049 20151231021829
+77.37.222.242 2 18 207407 20151231204418
+204.79.180.148 0 1 547 
+204.79.180.48 0 1 4165 
+204.79.180.68 0 1 4165 
+204.79.180.210 0 1 2689 
+95.24.48.140 2 14 122033 20151231174810
+176.15.105.250 2 26 348118 20151231061456
+101.226.66.187 1 13 263932 20151231041656
+178.137.160.2 5 5 312040 20151231162700
+204.79.180.76 0 2 39944 
+204.79.180.95 0 1 19588 
+176.77.31.106 2 14 122024 20151231174109
+204.79.180.59 0 1 1678 
+204.79.180.179 0 1 1396 
+204.79.180.182 0 1 3453 
+178.140.193.71 2 26 348066 20151231061500
+204.79.180.3 0 1 2507 
+188.255.21.163 2 22 155850 20151231123718
+204.79.180.243 1 1 11776 20151231080652
+204.79.180.24 0 2 2442 
+204.79.180.110 0 1 33587 
+204.79.180.254 0 1 1396 
+204.79.180.10 0 1 19588 
+188.32.22.158 3 15 130850 20151231153659
+128.69.190.144 2 22 155864 20151231125041
+204.79.180.16 0 1 19588 
+95.108.158.135 1 1 8849 20151231045811
+176.14.12.197 2 28 1136028 20151231052423
+204.79.180.26 1 1 12142 20151230224438
+66.249.88.29 0 6 125092 
+204.79.180.229 0 1 2507 
+95.24.215.238 1 17 183838 20151231204416
+204.79.180.151 0 1 547 
+204.79.180.30 0 1 1678 
+204.79.180.181 0 1 547 
+204.79.180.186 0 2 8134 
+37.110.39.113 2 26 348083 20151231095522
+213.191.16.23 2 26 348100 20151231061454
+136.243.35.158 1 1 52490 20151231190059
+204.79.180.233 0 2 53175 
+204.79.180.72 0 1 4165 
+204.79.180.185 0 1 19588 
+204.79.180.121 0 1 9890 
+191.187.211.210 3 29 1215440 20151231205451
+2.94.158.84 3 23 164683 20151231184221
+204.79.180.32 0 1 1777 
+93.159.230.89 3 22 209472 20151231081553
+93.81.88.122 2 26 348093 20151231061039
+204.79.180.28 0 1 19588 
+204.79.180.220 0 1 1678 
+128.68.230.122 3 23 164670 20151231113445
+187.95.0.228 1 7 44627 20151231162815
+77.41.134.91 5 35 1211665 20151231074344
+5.164.84.171 2 14 123933 20151231180506
+89.178.65.209 3 15 130865 20151231124436
+46.147.227.162 2 34 3882587 20151231063036
+95.221.205.238 2 26 348030 20151231050759
+204.79.180.241 0 1 1777 
+93.80.94.109 2 22 155860 20151231124814
+46.188.49.214 2 26 348082 20151231050818
+178.21.11.42 1 1 9333 20151231120229
+204.79.180.180 0 1 1396 
+204.79.180.251 0 1 2507 
+204.79.180.174 0 1 547 
+128.74.245.255 2 26 348083 20151231145715
+204.79.180.2 0 1 2689 
+204.79.180.83 0 1 3453 
+204.79.180.57 0 1 1777 
+93.80.214.217 2 26 348090 20151231061453
+204.79.180.141 0 1 2507 
+176.194.38.182 3 23 164681 20151231075800
+204.79.180.102 0 1 1777 
+204.79.180.0 0 1 1396 
+204.79.180.97 0 1 33587 
+204.79.180.128 0 1 800 
+178.155.8.51 2 27 650448 20151231212420
+79.98.52.27 1 3 77707 20151231104420
+204.79.180.168 0 1 1662 
+95.84.248.170 2 22 155857 20151231135337
+91.195.137.169 0 1 58158 
+204.79.180.9 0 1 1662 
+204.79.180.51 0 1 764 
+78.25.122.57 5 30 388400 20151231112115
+141.8.142.105 1 1 8852 20151231224942
+176.193.82.121 3 15 130846 20151231122352
+204.79.180.104 0 2 4351 
+101.226.33.221 1 1 23688 20151231041702
+93.80.236.205 3 15 130868 20151231055653
+188.64.170.188 2 2 62572 20151230232656
+204.79.180.94 0 2 13343 
+46.242.114.25 2 26 348082 20151231100408
+77.37.223.60 3 15 130856 20151231055654
+106.115.119.95 2 27 567024 20151231041700
+37.204.120.18 2 26 348096 20151231061455
+136.243.48.86 1 1 8107 20151231112037
+204.79.180.81 0 1 33587 
+204.79.180.218 0 1 9890 
+66.249.88.18 2 10 108610 20151231050942
+204.79.180.11 0 3 12091 
+204.79.180.131 0 2 3554 
+204.79.180.132 0 1 6357 
+204.79.180.161 0 1 3453 
+204.79.180.206 0 2 9817 
+77.41.94.201 1 32 2292264 20151231031909
+204.79.180.167 0 1 764 
+95.221.215.171 3 23 164698 20151231125706
+176.77.29.78 1 17 183841 20151231204416
+204.79.180.27 0 2 23041 
+93.81.71.117 2 18 147286 20151231075806
+204.79.180.34 0 2 4466 
+46.42.163.141 4 40 471992 20151231180501
+204.79.180.107 0 1 2689 
+217.118.93.148 4 6 59450 20151231115149
+213.80.138.178 2 4 29704 20151231075624
+204.79.180.214 0 1 9017 
+204.79.180.190 0 1 800 
+204.79.180.204 0 1 9017 
+204.79.180.77 0 1 9017 
+93.80.68.132 1 17 196600 20151231174739
+204.79.180.7 0 1 3453 
+204.79.180.189 1 2 15186 20151231001819
+204.79.180.187 0 1 2507 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20151230 46 304 16704543 4
+20151231 263 1926 67742851 92
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 1
+0s-30s 86
+5mn-15mn 2
+30s-2mn 6
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/ 81 2287657 32 22
+/fonts/glyphicons-halflings-regular.eot 22 448770 1 12
+/kontakty 17 134678 0 3
+/fonts/glyphicons-halflings-regular.woff2 14 182890 0 1
+/proizvodstvo 13 103630 0 1
+/katalog-tovarov/group/61/CatalogItem_sort/environment/index/7/catalog/CatalogItem_page/6 12 105850 5 5
+/katalog-tovarov 11 96818 2 2
+/sertifikaty 10 371556 3 3
+/fonts/glyphicons-halflings-regular.woff 8 189756 1 3
+/otzyvy 8 65245 1 1
+/katalog-tovarov/tovar/5 5 53450 5 3
+/katalog-tovarov/group/18/CatalogItem_sort/environment/index/CatalogItem_page/catalog/index/CatalogItem_page/7 4 35274 2 2
+/katalog-tovarov/group/61/CatalogItem_page/49/index/CatalogItem_sort/material/code/CatalogItem_sort/environment 2 17711 0 0
+/katalog-tovarov/group/2 1 11729 0 0
+/katalog-tovarov/group/63/CatalogItem_sort/title/index/CatalogItem_page/7/CatalogItem_page/8/CatalogItem_page/10/CatalogItem_page/2/ 1 8849 1 1
+/katalog-tovarov/group/51/index/CatalogItem_sort/material/environment/CatalogItem_sort/pressure/6/5/CatalogItem_page/CatalogItem_page/8 3 26473 2 2
+/katalog-tovarov/group/7 1 11672 0 0
+/klapanyi 3 70093 2 2
+/webstat/index.122015.html 1 9749 0 0
+/katalog-tovarov/group/70 3 35477 1 1
+/webstat/ 1 1730 0 0
+/katalog-tovarov/group/51/CatalogItem_sort/pressure/CatalogItem_page/1331 2 17595 1 1
+/katalog-tovarov/group/1/CatalogItem_page/274/index/CatalogItem_sort/material/CatalogItem_sort/environment/CatalogItem_sort/code/ 5 44091 3 2
+/zadvizhki 1 52487 1 1
+/katalog-tovarov/search 2 17604 0 0
+/katalog-tovarov/group/27 4 48670 1 1
+/katalog-tovarov/group/35 1 11727 0 0
+/katalog-tovarov/group/22/CatalogItem_page/393/index/CatalogItem_sort/title/pressure/CatalogItem_sort/title/ 1 8852 1 1
+/katalog-tovarov/group/19 1 11631 0 0
+/katalog-tovarov/group/4/CatalogItem_sort/environment/index/CatalogItem_page/10/9/CatalogItem_page/6/6/ 5 44098 3 2
+/user/login 1 941 0 0
+/katalog-tovarov/group/51 2 22087 1 1
+/katalog-tovarov/group/13 1 11592 0 0
+/webstat/awstats.bristol-msk.ru.urldetail.122015.html 1 3563 0 0
+/katalog-tovarov/group/16/index/CatalogItem_sort/pressure/material/CatalogItem_sort/CatalogItem_page/10/CatalogItem_page/9/CatalogItem_page/528 3 26465 2 1
+/katalog-tovarov/group/16/index/CatalogItem_page/10/CatalogItem_page/9/CatalogItem_page/7/CatalogItem_page/5/CatalogItem_page/6 4 35226 3 1
+/katalog-tovarov/group/63/CatalogItem_sort/code.desc/CatalogItem_page/9/ 3 26629 1 1
+/forms/ajax/sendFormToEmail/ 1 551 0 0
+/katalog-tovarov/group/18/CatalogItem_page/16/CatalogItem_sort/code.desc/ 4 35335 1 1
+/katalog-tovarov/group/45/CatalogItem_page/5/index/environment/catalog/CatalogItem_sort/title/material/CatalogItem_sort/material/material/ 6 52934 3 3
+/katalog-tovarov/group/48 3 35298 2 2
+/katalog-tovarov/group/6/filter/30%D1%87925%D0%B1%D1%80 2 17576 1 1
+/katalog-tovarov/group/4/filter/30%D1%81907%D0%BD%D0%B6 1 8826 1 1
+/katalog-tovarov/group/16/index/CatalogItem_page/4/9/diametr/CatalogItem_page/7/CatalogItem_sort/environment 5 44082 4 1
+/forms/ajax/formValidation 3 720 0 0
+/katalog-tovarov/tovar/6 4 42943 3 2
+/webstat/awstats.bristol-msk.ru.urlentry.122015.html 1 3147 0 1
+/katalog-tovarov/group/8/CatalogItem_page/3/index/environment/catalog/CatalogItem_sort/code/ 8 70509 4 4
+/admin.php 7 12446 0 1
+/katalog-tovarov/group/53/CatalogItem_page/36/index/CatalogItem_sort/environment/CatalogItem_sort/diametr/pressure/CatalogItem_sort/material/title/ 4 35321 2 2
+/fonts/glyphicons-halflings-regular.ttf 2 91330 0 1
+END_SIDER
