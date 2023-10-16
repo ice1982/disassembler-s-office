@@ -1,0 +1,19 @@
+ul li a {
+  color: black;
+}
+td,
+th {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+.emploee {
+  padding: 0 10px;
+  border: 1px solid lightgrey;
+}
+.center {
+  text-align: center;
+}
+.zagolovok {
+  border: 1px solid lightgrey;
+  padding: 0 10px;
+}

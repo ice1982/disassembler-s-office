@@ -1,0 +1,21 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  color: black;
+}
+
+#flags_list span{
+  box-shadow: 0 0 10px grey;
+}
+
+#flags_list{
+  padding: 10px;
+}
+
+#flags{
+  box-shadow: 0 0 10px grey;
+}

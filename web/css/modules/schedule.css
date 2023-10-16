@@ -1,0 +1,141 @@
+
+body{
+    font-size: 0.8vw;
+}
+
+.zagolovok {
+    border: 1px solid lightgrey;
+    padding: 0 10px;
+    background-color: lightgrey;
+}
+
+.week {
+	cursor: pointer;
+}
+
+.curr_week {
+    background-color: limegreen;
+}
+
+.string {
+    font-size: 12px;
+}
+
+.w {
+    background-color: white;
+}
+
+.j {
+    background-color: yellow;
+}
+
+.g {
+    background-color: green!important;
+}
+
+.r{
+    background-color: red!important;
+}
+
+.cells {
+    min-width: 65px;
+    height: 60px;
+    font-size: 16px;
+	cursor: pointer;
+}
+
+.head {
+    font-size: 12px;
+}
+
+/*.backtoyear {*/
+    /*display: none;*/
+/*}*/
+
+.lh2_5 {
+    line-height: 2.5;
+}
+
+.head .form-control {
+    font-size: 12px;
+!important;
+}
+
+.head table td {
+    vertical-align: middle !important;
+
+}
+.green{
+    background-color: lawngreen;
+}
+
+.nselected{
+    background-color: white;
+    color: #cccccc;
+}
+
+.selected{
+    background-color: yellow!important;
+    color: black;
+}
+
+.grey{
+    color: #cccccc;
+}
+
+.pad-left-0{
+    padding-left: 0;
+}
+
+.pad-right-0{
+    padding-right: 0;
+}
+
+.cells span{
+    display: none;
+}
+
+.modal-body {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.modal-body table {
+  text-align: center !important;
+}
+.modal-body table tbody th,
+.modal-body table tbody td {
+  text-align: center;
+  padding: 0 5px;
+}
+.modal-body table tbody tr {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.modal-body table tbody .th {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.a_c_m_b_m {
+  min-width: 600px;
+}
+.a_c_m_b_m .a_c_m_b_in {
+  display: inline-block;
+  width: 75px;
+}
+.a_c_m_b_m .a_c_m_b_in:nth-child(2) {
+  width: 400px;
+}
+.a_c_m_b_o {
+  min-width: 600px;
+}
+.a_c_m_b_o .a_c_m_b_in {
+  display: inline-block;
+  width: 75px;
+}
+.a_c_m_b_o .a_c_m_b_in:first-child {
+  width: 160px;
+}

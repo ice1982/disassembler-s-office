@@ -1,0 +1,139 @@
+a {
+  color: greenyellow;
+}
+.tab1 {
+  border-collapse: collapse;
+  margin-top: 141px;
+}
+.tab1 .th,
+.tab1 .td {
+  border: 1px solid darkgray;
+  font-weight: normal;
+  padding: 2px 5px;
+  font-size: 13px;
+  text-align: center;
+}
+.tab1 th {
+  background: lightgray;
+}
+.tab1 .fio {
+  text-align: left;
+  white-space: nowrap;
+  min-width: 180px;
+}
+.tab1 .p {
+  min-width: 40px;
+}
+.tab2 {
+  border-collapse: collapse;
+  text-align: center;
+  width: 930px;
+}
+.tab2 div {
+  font-size: 12px;
+}
+.cat {
+  border: 1px solid black;
+}
+.modal-body table {
+  text-align: center !important;
+}
+.modal-body table tbody th,
+.modal-body table tbody td {
+  text-align: center;
+  padding: 0 5px;
+}
+.modal-body table tbody tr {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.modal-body table tbody .th {
+  font-size: 12px;
+  white-space: nowrap;
+}
+th.w {
+  background: darkgray;
+}
+.w,
+.e {
+  background: greenyellow;
+  white-space: nowrap;
+}
+.cp {
+  cursor: pointer;
+}
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.gen {
+  min-width: 50px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-content {
+  display: inline-flex;
+}
+.a_c_m_b_m {
+  min-width: 600px;
+}
+.a_c_m_b_m .a_c_m_b_in {
+  display: inline-block;
+  width: 75px;
+}
+.a_c_m_b_m .a_c_m_b_in:nth-child(3) {
+  width: 290px;
+}
+.a_c_m_b_o {
+  min-width: 600px;
+}
+.a_c_m_b_o .a_c_m_b_in {
+  display: inline-block;
+  width: 75px;
+}
+.a_c_m_b_o .a_c_m_b_in:first-child {
+  width: 160px;
+}
+.head {
+  height: 69px;
+  top: 114px;
+  padding-top: 28px;
+  background: white;
+  position: fixed;
+  overflow-y: hidden;
+}
+.periood {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.other {
+  background: purple;
+  height: 2px;
+  position: relative;
+  top: 1px;
+}
+.modal-dialog {
+  width: auto;
+}
+.pad-right-0{
+  padding-right: 0!important;
+}
+.pad-left-0{
+  padding-left: 0!important;
+}

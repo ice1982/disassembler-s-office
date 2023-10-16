@@ -1,0 +1,46 @@
+.lh2_5 {
+    line-height: 2.5;
+}
+
+.zagolovok {
+    border: 1px solid lightgrey;
+    padding: 0 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.font{
+    font-size: 12px;
+}
+
+.content{
+    display: none;
+}
+
+.cells{
+    width: 76px;
+}
+
+.cells input{
+    text-align: center;
+    font-size: 12px;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.t1{
+    width: 98%;
+}
+
+.pad-right-25{
+    padding-right: 25px;
+}
+
+.pad-left-0{
+    padding-left: 0;
+}
+
+.pad-right-0{
+    padding-right: 0;
+}
